@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Rocket, Target } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -35,18 +35,18 @@ const Hero = () => {
           {/* Hero Headlines */}
           <div className="space-y-6">
             <div className="flex items-center justify-center gap-3 mb-4">
-              <Rocket className="text-4xl animate-bounce-slow" />
+              
               <h1 className="text-5xl md:text-6xl font-bold">
                 Master 30 DSA Questions in 15 Days
               </h1>
-              <Rocket className="text-4xl animate-bounce-slow" />
+            
             </div>
             <div className="flex items-center justify-center gap-3">
-              <Target className="text-2xl text-white/80" />
+             
               <p className="text-2xl md:text-3xl font-semibold text-white/90">
                 Build Patterns. Crack Placements.
               </p>
-              <Target className="text-2xl text-white/80" />
+              
             </div>
           </div>
 
