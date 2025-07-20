@@ -1,4 +1,4 @@
-# Placement DSA Series - @bannu.codes
+# Placement DSA Series - @gtech_dsa
 
 A professional, clean, and interactive website for the Placement DSA Series aimed at students preparing for coding interviews.
 
@@ -157,8 +157,8 @@ Feel free to:
 
 ## 📞 Contact
 
-- **Instagram**: [@bannu.codes](https://instagram.com/bannu.codes)
-- **Email**: contact@bannu.codes
+- **Instagram**: [@gtech_dsa](https://instagram.com/gtech_dsa)
+- **Email**: gopikrishna0727@gmail.com
 
 ## 📄 License
 
