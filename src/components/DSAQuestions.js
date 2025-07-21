@@ -61,7 +61,7 @@ const DSAQuestions = ({ searchTerm, selectedPattern, completedDays, toggleDayCom
           {filteredQuestions.map((dayGroup) => (
             <div key={dayGroup.day} className="day-card">
               {/* Day Header */}
-              <div className="flex items-center justify-between mb-6">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6 gap-3 md:gap-0">
                 <div className="flex items-center gap-3">
                   <div className="flex items-center gap-2">
                     <Calendar className="text-primary-600" size={20} />
@@ -75,7 +75,7 @@ const DSAQuestions = ({ searchTerm, selectedPattern, completedDays, toggleDayCom
                 </div>
                 <button
                   onClick={() => toggleDayCompletion(dayGroup.day)}
-                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                  className={`w-full md:w-auto mt-2 md:mt-0 px-4 py-2 rounded-lg font-medium transition-colors ${
                     completedDays.includes(dayGroup.day)
                       ? 'bg-green-100 text-green-700 hover:bg-green-200'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'

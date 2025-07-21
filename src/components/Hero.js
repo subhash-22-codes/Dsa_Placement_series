@@ -17,15 +17,15 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <h2 className="text-2xl font-bold mb-2">@gtech.codes</h2>
-            <p className="text-lg text-white/90 max-w-2xl mx-auto mb-6">
+            <h2 className="text-2xl font-bold mb-2 font-madimi">@gtech.codes</h2>
+            <p className="text-lg text-white/90 max-w-2xl mx-auto mb-6 font-outfit">
               Learn 30 DSA questions on Arrays & Strings with patterns, Leetcode links, and company tags to crack your dream placement!
             </p>
             <a
               href="https://instagram.com/gtech_dsa"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-white text-primary-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-200 shadow-lg"
+              className="font-poppins inline-flex items-center gap-2 bg-white text-primary-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-200 shadow-lg"
             >
               <Instagram size={20} />
               Follow on Instagram
@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="space-y-6">
             <div className="flex items-center justify-center gap-3 mb-4">
               
-              <h1 className="text-5xl md:text-6xl font-bold">
+              <h1 className="text-5xl md:text-6xl font-bold font-poppins">
                 Master 30 DSA Questions in 15 Days
               </h1>
             
@@ -53,15 +53,15 @@ const Hero = () => {
           {/* Stats */}
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">30</div>
+              <div className="font-poppins text-3xl font-bold mb-2">30</div>
               <div className="text-white/80">Handpicked Questions</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">15</div>
+              <div className="font-poppins text-3xl font-bold mb-2">15</div>
               <div className="text-white/80">Structured Days</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">10+</div>
+              <div className="font-poppins text-3xl font-bold mb-2">10+</div>
               <div className="text-white/80">Core Patterns</div>
             </div>
           </div>

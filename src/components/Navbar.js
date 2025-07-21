@@ -19,7 +19,7 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedPattern, setSelectedPattern
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-xl font-bold text-primary-600">@gtech_dsa</h1>
+              <h1 className="text-xl font-bold text-primary-600 font-madimi">@gtech_dsa</h1>
             </div>
           </div>
 
@@ -28,13 +28,13 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedPattern, setSelectedPattern
             <div className="ml-10 flex items-baseline space-x-4">
               <button
                 onClick={() => scrollToSection('patterns')}
-                className="text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                className="font-poppins text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 Patterns
               </button>
               <button
                 onClick={() => scrollToSection('questions')}
-                className="text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                className="font-poppins text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 DSA Series
               </button>
@@ -42,7 +42,7 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedPattern, setSelectedPattern
                 href="https://instagram.com/gtech_dsa"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1"
+                className="font-poppins text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1"
               >
                 <Instagram size={16} />
                 Instagram
@@ -84,13 +84,13 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedPattern, setSelectedPattern
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
             <button
               onClick={() => scrollToSection('patterns')}
-              className="text-gray-700 hover:text-primary-600 block px-3 py-2 rounded-md text-base font-medium"
+              className="font-poppins text-gray-700 hover:text-primary-600 block px-3 py-2 rounded-md text-base font-medium"
             >
               Patterns
             </button>
             <button
               onClick={() => scrollToSection('questions')}
-              className="text-gray-700 hover:text-primary-600 block px-3 py-2 rounded-md text-base font-medium"
+              className="font-poppins text-gray-700 hover:text-primary-600 block px-3 py-2 rounded-md text-base font-medium"
             >
               DSA Series
             </button>
@@ -98,7 +98,7 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedPattern, setSelectedPattern
               href="https://instagram.com/gtech_dsa"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-700 hover:text-primary-600 block px-3 py-2 rounded-md text-base font-medium flex items-center gap-2"
+              className="font-poppins text-gray-700 hover:text-primary-600 block px-3 py-2 rounded-md text-base font-medium flex items-center gap-2"
             >
               <Instagram size={16} />
               Instagram

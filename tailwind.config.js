@@ -6,6 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        madimi: ['"Madimi One"', 'cursive'],
+        outfit: ['Outfit', 'sans-serif'],
+      },
       colors: {
         primary: {
           50: '#eff6ff',
@@ -42,7 +47,10 @@ module.exports = {
           700: '#bc4412',
           800: '#963715',
           900: '#792f15',
-        }
+        },
+        yellow: {
+          DEFAULT: '#FFD600',
+        },
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
