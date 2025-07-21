@@ -19,7 +19,7 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedPattern, setSelectedPattern
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-xl font-bold text-primary-600 font-madimi">@gtech_dsa</h1>
+              <h1 className="text-xl font-bold text-primary-600 font-outfit">@gtech.codes</h1>
             </div>
           </div>
 

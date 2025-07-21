@@ -17,7 +17,7 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <h2 className="text-2xl font-bold mb-2 font-madimi">@gtech.codes</h2>
+            <h2 className="text-2xl font-bold mb-2 font-outfit">@gtech_dsa</h2>
             <p className="text-lg text-white/90 max-w-2xl mx-auto mb-6 font-outfit">
               Learn 30 DSA questions on Arrays & Strings with patterns, Leetcode links, and company tags to crack your dream placement!
             </p>
