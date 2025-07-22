@@ -40,7 +40,7 @@ export const questions = [
         title: "Find the Maximum and Minimum in Array",
         pattern: "Brute Force → Optimization",
         company: null,
-        leetcodeLink: "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+        leetcodeLink: "https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1",
         patternColor: "bg-gray-100 text-gray-800"
       }
     ]
