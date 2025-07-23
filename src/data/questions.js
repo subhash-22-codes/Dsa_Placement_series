@@ -81,7 +81,7 @@ export const questions = [
       },
       {
         id: 6,
-        title: "Is String a Palindrome?",
+        title: "Valid Palindrome?",
         pattern: "Two Pointers",
         company: null,
         leetcodeLink: "https://leetcode.com/problems/valid-palindrome/",
