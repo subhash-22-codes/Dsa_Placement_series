@@ -51,7 +51,7 @@ export const questions = [
     questions: [
       {
         id: 3,
-        title: "Check if Array is Sorted",
+        title: "Check if Array is Sorted and Rotated",
         pattern: "Simple Traversal",
         company: null,
         leetcodeLink: "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
@@ -120,7 +120,7 @@ export const questions = [
         title: "Maximum Sum Subarray of Size K",
         pattern: "Sliding Window",
         company: null,
-        leetcodeLink: "https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/",
+        leetcodeLink: "https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1",
         patternColor: "bg-green-100 text-green-800"
       },
       {
