@@ -222,7 +222,7 @@ const Homework = ({ completedQuestions, toggleQuestionCompletion }) => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-8 sm:mt-12">
+        {/* <div className="text-center mt-8 sm:mt-12">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl sm:rounded-2xl p-6 sm:p-8 text-white">
             <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Ready to Master DSA?</h3>
             <p className="text-sm sm:text-base text-blue-100 mb-4 sm:mb-6 max-w-2xl mx-auto px-4">
@@ -238,7 +238,7 @@ const Homework = ({ completedQuestions, toggleQuestionCompletion }) => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
