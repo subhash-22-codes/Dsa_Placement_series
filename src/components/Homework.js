@@ -141,9 +141,29 @@ const Homework = ({ completedQuestions, toggleQuestionCompletion }) => {
                           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between space-y-3 sm:space-y-0">
                             <div className="flex-1">
                               <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
-                                <h4 className="text-base sm:text-lg font-semibold text-gray-900">
-                                  {question.title}
-                                </h4>
+                                <div className="flex items-center space-x-2">
+                                  <h4 className="text-base sm:text-lg font-semibold text-gray-900">
+                                    {question.title}
+                                  </h4>
+                                  <button
+                                    onClick={() => toggleQuestionCompletion(question.id)}
+                                    className={`p-1.5 rounded-full transition-colors ${
+                                      completedQuestions.includes(question.id)
+                                        ? 'bg-green-100 text-green-600 hover:bg-green-200'
+                                        : 'bg-gray-100 text-gray-400 hover:bg-gray-200'
+                                    }`}
+                                  >
+                                    {completedQuestions.includes(question.id) ? (
+                                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                      </svg>
+                                    ) : (
+                                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                      </svg>
+                                    )}
+                                  </button>
+                                </div>
                                 <span className={`px-2 py-1 rounded-full text-xs font-semibold w-fit ${getDifficultyColor(question.difficulty)}`}>
                                   {question.difficulty}
                                 </span>
@@ -152,24 +172,6 @@ const Homework = ({ completedQuestions, toggleQuestionCompletion }) => {
                                 {question.description}
                               </p>
                             </div>
-                            <button
-                              onClick={() => toggleQuestionCompletion(question.id)}
-                              className={`self-start sm:ml-4 p-2 rounded-full transition-colors ${
-                                completedQuestions.includes(question.id)
-                                  ? 'bg-green-100 text-green-600 hover:bg-green-200'
-                                  : 'bg-gray-100 text-gray-400 hover:bg-gray-200'
-                              }`}
-                            >
-                              {completedQuestions.includes(question.id) ? (
-                                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20">
-                                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                </svg>
-                              ) : (
-                                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                </svg>
-                              )}
-                            </button>
                           </div>
 
                           {/* Question Details */}
