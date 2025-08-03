@@ -38,6 +38,12 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedPattern, setSelectedPattern
               >
                 DSA Series
               </button>
+              <button
+                onClick={() => scrollToSection('homework')}
+                className="font-poppins text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+              >
+                Practice
+              </button>
               <a
                 href="https://instagram.com/gtech_dsa"
                 target="_blank"
@@ -93,6 +99,12 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedPattern, setSelectedPattern
               className="font-poppins text-gray-700 hover:text-primary-600 block px-3 py-2 rounded-md text-base font-medium"
             >
               DSA Series
+            </button>
+            <button
+              onClick={() => scrollToSection('homework')}
+              className="font-poppins text-gray-700 hover:text-primary-600 block px-3 py-2 rounded-md text-base font-medium"
+            >
+              Practice
             </button>
             <a
               href="https://instagram.com/gtech_dsa"
