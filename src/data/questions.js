@@ -301,11 +301,11 @@ export const questions = [
       },
       {
         id: 26,
-        title: "Rotate Array by K Steps",
-        pattern: "Reverse Sections",
+        title: "Find Missing Number (0 to N)",
+        pattern: "XOR/Math Trick",
         company: null,
-        leetcodeLink: "https://leetcode.com/problems/rotate-array/",
-        patternColor: "bg-stone-100 text-stone-800"
+        leetcodeLink: "https://leetcode.com/problems/missing-number/",
+        patternColor: "bg-zinc-100 text-zinc-800"
       }
     ]
   },
@@ -337,11 +337,11 @@ export const questions = [
     questions: [
       {
         id: 29,
-        title: "Find Missing Number (0 to N)",
-        pattern: "XOR/Math Trick",
+        title: "Rotate Array by K Steps",
+        pattern: "Reverse Sections",
         company: null,
-        leetcodeLink: "https://leetcode.com/problems/missing-number/",
-        patternColor: "bg-zinc-100 text-zinc-800"
+        leetcodeLink: "https://leetcode.com/problems/rotate-array/",
+        patternColor: "bg-stone-100 text-stone-800"
       },
       {
         id: 30,
