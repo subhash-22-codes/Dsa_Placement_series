@@ -291,21 +291,21 @@ export const questions = [
     day: 13,
     title: "Day 13: Mixed Patterns",
     questions: [
-      {
+       {
         id: 25,
-        title: "Trapping Rain Water",
-        pattern: "Two Pointers + Prefix/Suffix Array",
-        company: null,
-        leetcodeLink: "https://leetcode.com/problems/trapping-rain-water/",
-        patternColor: "bg-indigo-100 text-indigo-800"
-      },
-      {
-        id: 26,
         title: "Find Missing Number (0 to N)",
         pattern: "XOR/Math Trick",
         company: null,
         leetcodeLink: "https://leetcode.com/problems/missing-number/",
         patternColor: "bg-zinc-100 text-zinc-800"
+      },
+      {
+        id: 26,
+        title: "Trapping Rain Water",
+        pattern: "Two Pointers + Prefix/Suffix Array",
+        company: null,
+        leetcodeLink: "https://leetcode.com/problems/trapping-rain-water/",
+        patternColor: "bg-indigo-100 text-indigo-800"
       }
     ]
   },
